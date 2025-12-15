@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Marketing</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1>Starting Business Marketing</h1>
+<button onclick="logout()">Logout</button>
+</header>
+
+
+<section class="form-produk">
+<h2>Unggah Produk</h2>
+<input type="text" id="namaProduk" placeholder="Nama Produk">
+<textarea id="deskripsiProduk" placeholder="Deskripsi Produk"></textarea>
+<input type="file" id="gambarProduk">
+<button onclick="tambahProduk()">Tambah Produk</button>
+</section>
+
+
+<section class="daftar-produk" id="produkList">
+<h2>Daftar Produk</h2>
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
